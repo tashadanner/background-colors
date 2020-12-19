@@ -60,27 +60,28 @@ footer {
 
 @media (min-width: 768px) {
   header {
-    background-color: #f0fff0;
+    background-color:#40424A;
   }
 
   #column-1 {
-    background-color: #e6ffe6;
-    width: 50%;
+    background-color: #B2BEE3;
   }
 
   #column-2 {
-    background-color: #ccffcc;
-    width: 50%;
+    background-color: #ADB4C9;
   }
 
   #column-3 {
-    background-color: #b3ffb3;
+    background-color: #8187AB;
     width: 100%;
   }
 
   footer {
-    background-color: #f0fff0;
+    background-color: #40424A;
   }
+
+  .col-3 {
+    width: 50%;
   
 }
 
@@ -93,12 +94,10 @@ footer {
 
   #column-1 {
     background-color: #c2c2d6;
-    width: 33.3%;
   }
 
   #column-2 {
     background-color: #d1d1e0;
-    width: 33.3%;
   }
 
   #column-3 {
@@ -108,6 +107,10 @@ footer {
 
   footer {
     background-color: #8585ad;
+  }
+
+  .col-3 {
+    width: 33.3%;
   }
    
 }
